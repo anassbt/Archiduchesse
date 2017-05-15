@@ -116,3 +116,16 @@ figure, img{
   width: 100%;
   margin: 0;
 }
+
+/*comun rules*/
+
+.desktop, .header2, .chauss ul,
+.end1 article:nth-child(5),
+.end1 article:nth-child(6){
+  display: none;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
