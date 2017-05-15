@@ -235,3 +235,54 @@ h1{
   font-size: 12px;
   padding: 3px;
 }
+
+@media (min-width: 490px) {
+
+  .header1 figure{
+    width: 30%;
+    height: 100%;
+  }
+
+  .mobtab figure{
+    width: 18%;
+  }
+
+  .chauss{
+    width: 220px;
+  }
+
+  .end1 article:nth-child(5),
+  .end1 article:nth-child(6){
+    display: flex;
+  }
+
+  .end1{
+    justify-content: center;
+  }
+
+  .end1 article{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 80px;
+    border-radius: 6px;
+    border: 1px lightgrey solid;
+    background: #eed;
+  }
+
+  .end1 figure{
+    width: 30%;
+  }
+
+  .pag p{
+    text-align: inherit;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 630px) {
+
+  .chauss{
+    width: 250px;
+  }
+}
