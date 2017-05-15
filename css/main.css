@@ -286,3 +286,166 @@ h1{
     width: 250px;
   }
 }
+
+@media (min-width: 768px) {
+
+  .header1 figure{
+    width: 25%;
+    height: 100%;
+  }
+
+  .chauss{
+    width: 190px;
+    margin-right: 5%;
+  }
+
+  .chaussettes{
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bigimg{
+    width: 400px;
+  }
+
+  .chauss ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    border-top: 1px #eee solid;
+  }
+
+  .chauss li{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    background: #6B000F;
+    padding: 1px 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    color: #eee;
+  }
+
+  .chauss li span:nth-child(2){
+    border-top: 1px #eee solid;
+}
+
+@media (min-width: 992px) {
+
+  body{
+    width: 100%;
+  }
+
+  .container{
+    width: 90%;
+    margin: auto;
+  }
+
+  .mobtab{
+    display: none;
+  }
+
+  .desktop, .header2{
+    display: flex;
+  }
+
+  .header1 figure{
+    margin: 5%;
+  }
+
+  .desktop sup{
+    background: #FFABE3;
+    color: #6B000F;
+    margin-left: 1px;
+    padding: 1px;
+  }
+
+  .header1, .header2{
+    background: #eee;
+    position: inherit;
+  }
+
+  .desktop ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+
+  .header1{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .desktop ul{
+    list-style: none;
+  }
+
+  .desktop li span{
+    background: white;
+    border-radius: 4px;
+    padding: 6px 10px;
+  }
+
+  .header2{
+    justify-content: center;
+    padding-top: 40px;
+  }
+
+  .bar figure{
+    width: 30%;
+  }
+
+  .bar{
+    display: flex;
+    width: 150px;
+    justify-content: flex-start;
+    background: lightgrey;
+    margin-right: 8px;
+    border-radius: 5px;
+  }
+
+  .bar h2{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: times, serif;
+    color: #7D7D7D;
+  }
+
+  .bar p{
+    color: #7D7D7D;
+    font-size: 10px;
+    font-style: italic;
+  }
+
+  .bar section:hover p, .bar section:hover h2{
+    color: black;
+    cursor: pointer;
+  }
+
+  .header2 article:nth-child(1){
+    background: white;
+  }
+
+  .header2 article:nth-child(1) h2{
+    color: black;
+  }
+
+  h1{
+    margin-top: 5%;
+  }
+
+  .size{
+    position: fixed;
+    right: 25px;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+  }
+
+  .line, .linee{
+    margin: 3px;
+}
