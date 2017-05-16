@@ -104,6 +104,18 @@ body{
   font-family: times, serif;
 }
 
+.main {
+  text-align: center;
+  display: row;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+#success_message{
+  display: none;
+}
+
 *{
   margin: 0;
 }
